@@ -98,12 +98,6 @@ chown hysteria:hysteria /etc/hysteria/fullchain.pem /etc/hysteria/privkey.pem
 chmod 640 /etc/hysteria/fullchain.pem /etc/hysteria/privkey.pem
 ```
 
-### Restart the service
-```bash
-
-systemctl restart hysteria-server.service
-```
-
 ### Make the Script Executable
 
 ```bash
