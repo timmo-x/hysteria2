@@ -61,10 +61,7 @@ firewall-cmd --reload
 ```bash
 dnf install -y certbot
 
-certbot certonly --standalone \
-  --agree-tos \
-  --email timmo@domain.com \
-  -d domain.com
+certbot certonly --standalone --agree-tos --email timmo@domain.com -d domain.com
 ```
 
 ```bash
